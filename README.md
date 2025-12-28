@@ -12,6 +12,7 @@ This analysis uses historical bike-trip data from:
 - Divvy Trips Q1 2020
 
 The datasets contain trip-level information including ride duration, timestamps, station locations, and rider type.
+A rendered HTML version of the full analysis is available in the `report/` folder for easy viewing.
 
 ## Tools
 - R
