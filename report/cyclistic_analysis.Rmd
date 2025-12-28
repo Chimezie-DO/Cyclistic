@@ -1,1 +1,34 @@
+---
+title: "Cyclistic Bike-Share Analysis"
+author: "Chimezie Desmond Ofaraka"
+output: html_document
+---
 
+## Business Context
+Cyclistic is a bike-share company aiming to increase annual memberships. While casual riders generate short-term revenue, annual members provide more stable and predictable income. This analysis examines behavioral differences between casual riders and annual members to support data-driven marketing decisions.
+
+## Business Question
+How can Cyclistic convert casual riders into annual members based on observed usage patterns?
+
+## Data
+The analysis uses historical bike-trip data from Q1 2019 and Q1 2020. The dataset includes trip-level information such as ride duration, timestamps, station locations, and rider type. Raw data files are excluded from this repository due to size constraints.
+
+## Analysis
+rides_clean %>%
+  group_by(user_type) %>%
+  summarise(avg_ride_length = mean(ride_length))
+Casual riders exhibit significantly longer average ride durations than annual members, suggesting a more leisure-oriented usage pattern.
+
+## Key Insights
+- Casual riders take longer rides on average, indicating leisure-focused usage.
+- Casual rider activity peaks on weekends.
+- Annual members ride more frequently on weekdays, consistent with commuting behavior.
+
+## Recommendations
+- Introduce weekend-focused membership promotions targeting casual riders.
+- Offer short-term or trial membership options tailored to leisure users.
+- Concentrate marketing efforts during weekends when casual rider engagement is highest.
+
+## Limitations
+- The analysis is limited to Q1 data and may not capture seasonal riding behavior.
+- External factors such as weather and special events were not considered.
