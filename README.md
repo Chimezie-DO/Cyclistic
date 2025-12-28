@@ -1,3 +1,6 @@
+🔗 **View the full rendered analysis report:**  
+https://chimezie-do.github.io/Cyclistic/report/cyclistic_analysis.html
+
 # Cyclistic Bike-Share Analysis
 
 ## Project Overview
