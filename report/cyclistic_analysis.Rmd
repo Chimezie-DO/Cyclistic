@@ -4,6 +4,12 @@ author: "Chimezie Desmond Ofaraka"
 output: html_document
 ---
 
+## Executive Summary
+
+This analysis examines behavioral differences between casual riders and annual members using Cyclistic bike-share data from Q1 2019 and Q1 2020. The objective was to identify patterns that could inform strategies for converting casual riders into long-term members.
+The findings show that casual riders take significantly longer rides and predominantly use the service on weekends, indicating leisure-oriented behavior. In contrast, annual members exhibit shorter, more frequent rides concentrated on weekdays, consistent with commuting patterns. Year-over-year analysis also reveals that casual ridership grew faster than annual membership, highlighting an opportunity to improve conversion strategies.
+Based on these insights, Cyclistic should prioritize weekend-focused marketing campaigns, introduce flexible or trial membership options tailored to leisure users, and target outreach during periods of peak casual usage to maximize conversion potential.
+
 ## Business Context
 Cyclistic is a bike-share company aiming to increase annual memberships. While casual riders generate short-term revenue, annual members provide more stable and predictable income. This analysis examines behavioral differences between casual riders and annual members to support data-driven marketing decisions.
 
