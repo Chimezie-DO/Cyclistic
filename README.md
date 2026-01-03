@@ -21,6 +21,7 @@ A rendered HTML version of the full analysis is available in the `report/` folde
 - R
 - tidyverse
 - R Markdown
+- SQL (BigQuery)
 
 ## Key Insights
 - Casual riders take longer trips on average, indicating leisure-oriented usage.
