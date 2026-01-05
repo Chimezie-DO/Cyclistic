@@ -7,6 +7,9 @@
 * [02 – Feature Engineering](scripts/02_feature_engineering.sql)
 * [03 – Exploratory Analysis](scripts/03_exploratory_analysis.sql)
 
+🔗 **Interactive Dashboard (Tableau Public):**  
+https://public.tableau.com/app/profile/chimezie.ofaraka/viz/Cyclistic_bike_share_analysis/Dashboard1
+
 ## Project Overview
 Cyclistic is a bike-share company seeking to increase annual memberships. This project analyzes behavioral differences between casual riders and annual members to generate insights that inform targeted marketing and growth strategies.
 
@@ -30,6 +33,10 @@ How can Cyclistic convert casual riders into annual members based on observed us
 * **Visualization:** Built descriptive charts with `ggplot2` to illustrate rider behavior patterns.
 * **Reporting:** Produced a fully rendered HTML report using **R Markdown** for stakeholder-friendly presentation.
 
+### Tableau (Public)
+* **Data Storytelling:** Designed a dual-axis dashboard to contrast total ride volume against average trip duration across user segments.
+* **Interactive Visualization:** Implemented "Day of Week" heat-mapping to visually confirm peak leisure usage vs. commuter cycles.
+* **Executive Presentation:** Utilized active titling and annotations to guide stakeholders toward key behavioral findings, such as the 3x duration gap for casual riders.
 ---
 
 ## Data Source
